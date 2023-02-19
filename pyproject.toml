@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "grouptender-bot"
+version = "1.0.0"
+description = "Bot created for managing telegram group properties"
+authors = ["Mikhail Isaev"]
+readme = "README.md"
+packages = [{include = "grouptender_bot"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pytelegrambotapi = "^4.10.0"
+black = "^23.1.0"
+aiohttp = "^3.8.4"
+python-dotenv = "^0.21.1"
+psycopg2-binary = "^2.9.5"
+flake8 = "^6.0.0"
+pylint = "^2.16.2"
+mypy = "^1.0.1"
+autoflake = "^2.0.1"
+isort = "^5.12.0"
+unify = "^0.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
